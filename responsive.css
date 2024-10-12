@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 767px) {
     .button-primary {
       padding-top: 20px;
       padding-left: 24px;
@@ -116,10 +116,10 @@
       padding: 16px;
     }
     .navigation-nav {
-      display: none;
+      display: flex;
     }
     .navigation-burger-menu {
-      display: flex;
+      display: none;
     }
   
     .home-text13 {

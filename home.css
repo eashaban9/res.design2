@@ -187,7 +187,7 @@ tr:hover {
 }
 .navigation-links-nav {
   flex: 0 0 auto;
-  display: inline-grid;
+  display: flex;
   align-items: center;
   flex-direction: row;
 }
@@ -201,6 +201,7 @@ tr:hover {
 .navigation-links-text1 {
   cursor: pointer;
   transition: 0.3s;
+  margin-left: 41px;
 }
 .navigation-links-text1:hover {
   color: #11FC02;
@@ -208,6 +209,7 @@ tr:hover {
 .navigation-links-text2 {
   cursor: pointer;
   transition: 0.3s;
+  margin-left: 41px;
 }
 .navigation-links-text2:hover {
   color: #11FC02;
@@ -215,6 +217,7 @@ tr:hover {
 .navigation-links-text3 {
   cursor: pointer;
   transition: 0.3s;
+  margin-left: 41px;
 }
 .navigation-links-text3:hover {
   color: #11FC02;
@@ -226,15 +229,14 @@ tr:hover {
   top: 0;
   width: 100%;
   display: flex;
-  z-index: 100;
   position: fixed;
   align-items: center;
-  justify-content: left;
-  background-color: transparent;
+  justify-content: center;
+  background-color: #D6D8D7;
 }
 .navigation-max-width {
   width: 100%;
-  display: inline-grid;
+  display: flex;
   max-width: 988px;
   align-items: center;
   padding-top: 32px;
@@ -245,7 +247,7 @@ tr:hover {
 }
 .navigation-nav {
   flex: 0 0 auto;
-  display: inline-grid;
+  display: flex;
   align-items: center;
   flex-direction: row;
 }
